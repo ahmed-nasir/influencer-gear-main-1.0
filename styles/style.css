@@ -5,10 +5,14 @@
 /* Common styles */
 body{
     background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* nav style */
-.nav-container{
+h1{
+    font-size: 50px;
+}
+
+.container{
 
     display: flex;
     justify-content: space-between;
@@ -18,6 +22,32 @@ body{
 
 }
 
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    background-color: 
+    #E02C6D;
+    color: white;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+button:hover{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    background-color: 
+    blueviolet;
+    color: white;
+    transform: rotate(360deg);
+}
+
+/* nav style */
 .menu{
     display: flex;
     justify-content:flex-end;
@@ -31,4 +61,17 @@ ul>li{
 li>a{
     text-decoration: none;
     padding-left: 20px;
+}
+/* ***********##########*********** */
+/* popular section  */
+
+/* Use grid  */
+
+.popular-collections{
+    width: 80%;
+}
+.collection-container{
+    background-color: brown;
+    width: 80%;
+
 }
